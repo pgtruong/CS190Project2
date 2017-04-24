@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1866025847	Footstep			\Default Work Unit\Footstep	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70825949	SFX_MetalFootStep02	C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Mac\SFX\SFX_MetalFootStep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep02		88344
+	143122849	SFX_MetalFootStep01	C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Mac\SFX\SFX_MetalFootStep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep01		88344
+	249312119	SFX_MetalFootStep04	C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Mac\SFX\SFX_MetalFootStep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep04		88344
+	855607848	SFX_MetalFootStep03	C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Mac\SFX\SFX_MetalFootStep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep03		88344
+

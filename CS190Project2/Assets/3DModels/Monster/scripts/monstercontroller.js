@@ -158,7 +158,7 @@ function FixedUpdate()
 		var targetVelocity = targetDirection;
 		
 		
-		if (Input.GetButton("Fire2") && canrun && !isjumping)
+		if (Input.GetButton("Fire2") && canrun && !isjumping && ver > 0)
 		{
 			targetVelocity *= runspeed;
 			velocityanim *= 2;
@@ -169,26 +169,6 @@ function FixedUpdate()
 		{
 			targetVelocity *= speed;
 			velocityanim *= 1;
-			
-			
-			
-		}
-		if (Input.GetButton("Fire1")&& canattack)
-		{
-			
-			var currentState : AnimatorStateInfo = animator.GetCurrentAnimatorStateInfo(2);
-			if (currentState.length == 0)
-			{
-   				var attackrandom : int = Random.Range(0,4);
-				animator.SetFloat("random",attackrandom);
-				animator.SetBool("attack",true);
-   				
-			}
-			
-		}
-		else
-		{
-			animator.SetBool("attack",false);
 		}
 		
 		
@@ -221,11 +201,6 @@ function FixedUpdate()
      	}   
 	}
  
-	 if (Input.GetButton("Fire3"))
-	 {
-	 	 weaponselect();	
-	 }
-      
 	 animator.SetBool("grounded",grounded);	 
      
      GetComponent.<Rigidbody>().AddForce(Vector3 (0, -gravity * GetComponent.<Rigidbody>().mass, 0));
