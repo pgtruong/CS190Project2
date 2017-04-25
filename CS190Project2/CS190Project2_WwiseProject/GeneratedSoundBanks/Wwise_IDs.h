@@ -14,7 +14,23 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID SPRINT = 1296465089U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MOVEMENT
+        {
+            static const AkUniqueID GROUP = 2129636626U;
+
+            namespace STATE
+            {
+                static const AkUniqueID RUN = 712161704U;
+                static const AkUniqueID WALK = 2108779966U;
+            } // namespace STATE
+        } // namespace MOVEMENT
+
+    } // namespace STATES
 
     namespace BANKS
     {

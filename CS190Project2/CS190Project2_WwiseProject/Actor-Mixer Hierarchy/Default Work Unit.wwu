@@ -151,6 +151,45 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" ShortID="526146133" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" ShortID="1030411023">
+							<Language>SFX</Language>
+							<AudioFile>SFX_PantingLooped.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Movement" ID="{7C37C818-A079-4B82-8908-56B6F5542A05}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Walk" ID="{EB08D867-B1B9-419A-AE91-C3D67EEB6724}"/>
+								<State Name="Custom State" ID="{EC2BA2AF-96B0-4416-819C-A5B5BD113828}" ShortID="195300930">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-100"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Sprint" ID="{06175077-0EE4-47D0-BE27-895A67CCBB68}">
+					<ChildrenList>
+						<Action Name="Play" ID="{23AB6D69-85EE-4A1E-A76B-D7025D43DE99}" ShortID="143618236" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3611ACCD-4B90-4B10-9DAF-1F734118C169}" Global="false">
+									<ObjectRef Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{3D39D8BF-B1AD-4164-9B81-4B75C80E218B}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Sprint" ID="{06175077-0EE4-47D0-BE27-895A67CCBB68}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep" ID="{CF0852C6-30BB-4E1B-B39B-F239E37DD234}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
