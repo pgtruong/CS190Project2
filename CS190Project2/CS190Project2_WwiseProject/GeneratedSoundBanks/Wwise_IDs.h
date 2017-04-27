@@ -25,7 +25,7 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID RUN = 712161704U;
+                static const AkUniqueID SPRINT = 1296465089U;
                 static const AkUniqueID WALK = 2108779966U;
             } // namespace STATE
         } // namespace MOVEMENT

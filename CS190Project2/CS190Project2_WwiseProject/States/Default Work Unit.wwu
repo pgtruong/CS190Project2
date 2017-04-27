@@ -10,18 +10,18 @@
 					<ChildrenList>
 						<State Name="None" ID="{3FE616DE-52C1-46F5-9DBD-F88748E2E921}"/>
 						<State Name="Walk" ID="{EB08D867-B1B9-419A-AE91-C3D67EEB6724}"/>
-						<State Name="Run" ID="{82CA2FE1-8A94-4F5E-A5D7-C6AC247018DE}"/>
+						<State Name="Sprint" ID="{82CA2FE1-8A94-4F5E-A5D7-C6AC247018DE}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
 							<StartState Name="Walk" ID="{EB08D867-B1B9-419A-AE91-C3D67EEB6724}"/>
-							<EndState Name="Run" ID="{82CA2FE1-8A94-4F5E-A5D7-C6AC247018DE}"/>
+							<EndState Name="Sprint" ID="{82CA2FE1-8A94-4F5E-A5D7-C6AC247018DE}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="None" ID="{3FE616DE-52C1-46F5-9DBD-F88748E2E921}"/>
-							<EndState Name="Run" ID="{82CA2FE1-8A94-4F5E-A5D7-C6AC247018DE}"/>
+							<EndState Name="Sprint" ID="{82CA2FE1-8A94-4F5E-A5D7-C6AC247018DE}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>

@@ -168,6 +168,11 @@
 				<Sound Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" ShortID="526146133" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

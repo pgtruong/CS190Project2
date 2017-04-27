@@ -6,8 +6,8 @@ State Group	ID	Name			Wwise Object Path	Notes
 	2129636626	Movement			\Default Work Unit\Movement	
 
 State	ID	Name	State Group			Notes
-	712161704	Run	Movement			
 	748895195	None	Movement			
+	1296465089	Sprint	Movement			
 	2108779966	Walk	Movement			
 
 Custom State	ID	Name	State Group	Owner		Notes

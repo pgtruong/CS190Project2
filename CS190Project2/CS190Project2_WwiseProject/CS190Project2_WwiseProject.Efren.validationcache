@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1933483982" DateHigh="30588612"/>
+	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="739868868" DateHigh="30588678"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1933509232" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1933529224" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1933694464" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1933714188" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1933739476" DateHigh="30588612"/>
-	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\CS190Project2_WwiseProject.Efren.wsettings" DateLow="24463130" DateHigh="30588677"/>
+	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\CS190Project2_WwiseProject.Efren.wsettings" DateLow="364949921" DateHigh="30588679"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\CS190Project2_WwiseProject.wproj" DateLow="1933664490" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1933759193" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1933779698" DateHigh="30588612"/>
@@ -22,7 +22,7 @@
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Queries\Factory Queries.wwu" DateLow="1935950319" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1935980324" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1936015323" DateHigh="30588612"/>
-	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\States\Default Work Unit.wwu" DateLow="1936040596" DateHigh="30588612"/>
+	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\States\Default Work Unit.wwu" DateLow="297192383" DateHigh="30588679"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1936065322" DateHigh="30588612"/>
 	<ValidationCacheItem File="C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1936090325" DateHigh="30588612"/>
 </ValidationCache>

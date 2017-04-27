@@ -58,11 +58,13 @@ public class MonsterController : MonoBehaviour {
     public float maximumY = 60f;
     public float rotationY = 0f;
     Vector3 addvector;
+    private BetterFootSounds footSounds;
 
     void Awake()
     {
         GetComponent<Rigidbody>().freezeRotation = true;
         GetComponent<Rigidbody>().useGravity = false;
+        footSounds = this.GetComponent<BetterFootSounds>();
     }
 
     void Start()
@@ -148,13 +150,14 @@ public class MonsterController : MonoBehaviour {
             {
                 targetVelocity *= runSpeed;
                 velocityanim *= 2;
-
+                footSounds.Sprint(true);
 
             }
             else
             {
                 targetVelocity *= speed;
                 velocityanim *= 1;
+                footSounds.Sprint(false);
             }
 
 
