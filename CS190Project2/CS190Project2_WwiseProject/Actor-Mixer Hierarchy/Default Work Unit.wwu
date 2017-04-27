@@ -4,6 +4,20 @@
 		<WorkUnit Name="Default Work Unit" ID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="MetalFootStep" ID="{568DD565-837F-4655-A9E2-BA9409347119}" ShortID="1070125787">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F7F1741A-3043-4B90-B147-3AA7B0626CD3}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="25"/>
+											<Property Name="Min" Type="Real64" Value="-25"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
@@ -22,7 +36,7 @@
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Min" Type="Real64" Value="-51"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>

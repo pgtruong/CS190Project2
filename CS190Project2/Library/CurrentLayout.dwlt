@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 815, y: 471}
-  m_MaxSize: {x: 22010, y: 14021}
+  m_MinSize: {x: 811, y: 471}
+  m_MaxSize: {x: 22006, y: 14021}
   vertical: 0
-  controlID: 107
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 471}
   m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 12
+  controlID: 170
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,10 +205,10 @@ MonoBehaviour:
     y: 0
     width: 1046
     height: 947
-  m_MinSize: {x: 308, y: 342}
-  m_MaxSize: {x: 8008, y: 8042}
+  m_MinSize: {x: 304, y: 342}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 108
+  controlID: 97
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,10 +229,10 @@ MonoBehaviour:
     y: 0
     width: 1046
     height: 641
-  m_MinSize: {x: 308, y: 221}
-  m_MaxSize: {x: 8008, y: 4021}
+  m_MinSize: {x: 304, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 109
+  controlID: 98
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,8 +303,8 @@ MonoBehaviour:
     y: 641
     width: 1046
     height: 306
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -440,9 +440,9 @@ MonoBehaviour:
     height: 610
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98310000
-    m_LastClickedID: 12696
-    m_ExpandedIDs: fcdbfffffedbffff0adcffff18dcffff1adcffff1edcffff26dcffff28dcffff48dcffff4adcffff4edcffff50dcffff70dcffff76dcffff7adcffff80dcffff00000000c431000076320000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: c0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,19 +502,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/3DModels/Monster/scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/3DModels/Monster/scripts
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Peter Truong\Desktop\CS190Project2\CS190Project2
+  m_LastProjectPath: C:\Users\Efren\Documents\CS190Project2\CS190Project2
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: d4300000
-    m_LastClickedID: 12500
-    m_ExpandedIDs: 00000000e02e00008c2f0000ba2f000050300000d0300000da3000000a31000030310000323100005e3100003e3300004033000000ca9a3bffffff7f
+    m_SelectedIDs: de260000
+    m_LastClickedID: 9950
+    m_ExpandedIDs: 00000000de260000b4270000e4270000d02800007429000080290000b8290000e6290000e82900002e2a0000e02e0000e22e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e02e00008c2f0000ba2f000050300000d0300000da3000000a31000030310000323100005e3100003e33000040330000
+    m_ExpandedIDs: 00000000de260000b4270000e4270000d02800007429000080290000b8290000e6290000e82900002e2a0000e02e0000e22e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 3c2800000c310000b22c0000b62d000078510000c42c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0464321, y: 0.9245462, z: 0.119641244, w: -0.35881004}
     speed: 2
-    m_Value: {x: 0.046432097, y: 0.92454606, z: 0.11964123, w: -0.35881}
+    m_Value: {x: 0.046432097, y: 0.9245461, z: 0.11964124, w: -0.35881004}
   m_Size:
     m_Target: 3.4248514
     speed: 2
