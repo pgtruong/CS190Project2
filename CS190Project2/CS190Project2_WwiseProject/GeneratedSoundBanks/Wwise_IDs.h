@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ALARMFLARE = 3195727128U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID SPRINT = 1296465089U;
     } // namespace EVENTS

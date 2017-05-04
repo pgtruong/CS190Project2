@@ -209,6 +209,32 @@
 						<ActiveSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_SpaceAlarmSingle" ID="{F69BA41F-7D2F-4A67-8BFD-683B457ED614}" ShortID="655597671" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_SpaceAlarmSingle" ID="{B5ECEDB3-CF19-4486-B3D8-39FB004088F9}" ShortID="153380551">
+							<Language>SFX</Language>
+							<AudioFile>SFX_SpaceAlarmSingle.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_SpaceAlarmSingle" ID="{B5ECEDB3-CF19-4486-B3D8-39FB004088F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

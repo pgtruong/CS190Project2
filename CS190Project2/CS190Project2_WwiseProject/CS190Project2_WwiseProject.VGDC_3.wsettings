@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{BE303C75-A70A-4CFB-93F5-5495ED535EA3}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\Assets\Sounds\Humanoid"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\Assets\Sounds\Environment"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -22,7 +22,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="JpEhaCWtp0ORW7x2VALg8+lnlXVlvoJLpF+kG2kZmQo="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="v9g5Pa2xZEGbgUt1yA4hiw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="ZzbCOpra5Eq23ghMPcv9GwGpfhX/////c9QwtFLNcESUjH8JCv3bmQGpfhX/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="c9QwtFLNcESUjH8JCv3bmQEpOhb/////ZzbCOpra5Eq23ghMPcv9GwEpOhb/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>

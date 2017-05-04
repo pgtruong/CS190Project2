@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,6 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3195727128" Name="AlarmFlare" ObjectPath="\Events\Default Work Unit\AlarmFlare"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
 				<Event Id="1296465089" Name="Sprint" ObjectPath="\Events\Default Work Unit\Sprint"/>
 			</IncludedEvents>
@@ -32,6 +33,10 @@
 				<File Id="143122849" Language="SFX">
 					<ShortName>SFX_MetalFootStep01.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep01_9E69E797.wem</Path>
+				</File>
+				<File Id="153380551" Language="SFX">
+					<ShortName>SFX_SpaceAlarmSingle.wav</ShortName>
+					<Path>SFX\SFX_SpaceAlarmSingle_9E69E797.wem</Path>
 				</File>
 				<File Id="249312119" Language="SFX">
 					<ShortName>SFX_MetalFootStep04.wav</ShortName>
