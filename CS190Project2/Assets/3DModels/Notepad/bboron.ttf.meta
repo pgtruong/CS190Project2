@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2d45d2f484b30674fa38994afcd17c62
+timeCreated: 1494017539
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Boring Boron
+  fontNames:
+  - Boring Boron
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

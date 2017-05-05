@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{BE303C75-A70A-4CFB-93F5-5495ED535EA3}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\Assets\Sounds\Environment"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\Assets\Sounds\Shotgun"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>

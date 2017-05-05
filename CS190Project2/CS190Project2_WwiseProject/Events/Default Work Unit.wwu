@@ -36,6 +36,37 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pickup_Code" ID="{081A5ADE-3BCF-4EC0-A62C-D465D8D65D35}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0DBCA8B9-73D8-4F05-96F3-5BD168D2D8B6}" ShortID="973638694" Type="Play" Scope="One" Global="false"/>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Shotgun" ID="{10D92D48-ED11-4060-BAC2-79040852384D}" ShortID="904253576">
+					<ChildrenList>
+						<Event Name="Pickup_Shotgun" ID="{3E213413-BCF9-4F66-8D59-C1E340676155}">
+							<ChildrenList>
+								<Action Name="Play" ID="{E2F2B6CD-F813-49B2-8EF0-650092B733FA}" ShortID="706517946" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{04679D6F-51C7-48F1-A87B-2438D4778F49}" Global="false">
+											<ObjectRef Name="SFX_ShotgunPickup" ID="{7FD1A66E-7599-4B1A-A570-8E78479D58FE}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shoot_Shotgun" ID="{75A5C40A-14A8-44B4-8E72-03029DB06324}">
+							<ChildrenList>
+								<Action Name="Play" ID="{61F43534-694E-47E0-B8BE-9330FE11DD70}" ShortID="3898970" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{48D4ADFD-1235-4556-A20D-69AFE6119CE5}" Global="false">
+											<ObjectRef Name="SFX_CodePickup" ID="{81910BF7-2149-4224-8405-75791D0106A8}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

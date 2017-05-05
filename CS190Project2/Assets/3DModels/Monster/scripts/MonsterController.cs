@@ -59,12 +59,16 @@ public class MonsterController : MonoBehaviour {
     public float rotationY = 0f;
     Vector3 addvector;
     private BetterFootSounds footSounds;
+    GameObject shotgun;
+    float shotgunCooldown = 1.5f;
+    bool enableShoot = true;
 
     void Awake()
     {
         GetComponent<Rigidbody>().freezeRotation = true;
         GetComponent<Rigidbody>().useGravity = false;
         footSounds = this.GetComponent<BetterFootSounds>();
+        shotgun = gameObject.transform.FindChild("Main Camera").transform.FindChild("Shotgun").gameObject;
     }
 
     void Start()
@@ -75,6 +79,12 @@ public class MonsterController : MonoBehaviour {
 
     void Update()
     {
+        if (Input.GetMouseButtonDown(0) && shotgun.activeSelf)
+        {
+            if (enableShoot)
+                StartCoroutine(ShotgunShot());
+        }
+
         if (axes == RotationAxes.MouseXAndY)
         {
             float rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivityX;
@@ -98,6 +108,13 @@ public class MonsterController : MonoBehaviour {
         //}
     }
 
+    IEnumerator ShotgunShot()
+    {
+        AkSoundEngine.PostEvent("Shoot_Shotgun", this.gameObject);
+        enableShoot = false;
+        yield return new WaitForSeconds(shotgunCooldown);
+        enableShoot = true;
+    }
     void FixedUpdate()
     {
         Animator animator = GetComponent<Animator>();

@@ -15,6 +15,9 @@ namespace AK
     {
         static const AkUniqueID ALARMFLARE = 3195727128U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID PICKUP_CODE = 2598235015U;
+        static const AkUniqueID PICKUP_SHOTGUN = 1803401998U;
+        static const AkUniqueID SHOOT_SHOTGUN = 3270553689U;
         static const AkUniqueID SPRINT = 1296465089U;
     } // namespace EVENTS
 

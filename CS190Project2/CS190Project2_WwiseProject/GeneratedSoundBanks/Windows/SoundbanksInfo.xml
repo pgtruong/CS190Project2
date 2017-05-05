@@ -23,12 +23,19 @@
 			<IncludedEvents>
 				<Event Id="3195727128" Name="AlarmFlare" ObjectPath="\Events\Default Work Unit\AlarmFlare"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
+				<Event Id="2598235015" Name="Pickup_Code" ObjectPath="\Events\Default Work Unit\Pickup_Code"/>
+				<Event Id="1803401998" Name="Pickup_Shotgun" ObjectPath="\Events\Default Work Unit\Shotgun\Pickup_Shotgun"/>
+				<Event Id="3270553689" Name="Shoot_Shotgun" ObjectPath="\Events\Default Work Unit\Shotgun\Shoot_Shotgun"/>
 				<Event Id="1296465089" Name="Sprint" ObjectPath="\Events\Default Work Unit\Sprint"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="70825949" Language="SFX">
 					<ShortName>SFX_MetalFootStep02.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep02_9E69E797.wem</Path>
+				</File>
+				<File Id="82769684" Language="SFX">
+					<ShortName>SFX_CodePickup.wav</ShortName>
+					<Path>SFX\SFX_CodePickup_9E69E797.wem</Path>
 				</File>
 				<File Id="143122849" Language="SFX">
 					<ShortName>SFX_MetalFootStep01.wav</ShortName>
@@ -41,6 +48,14 @@
 				<File Id="249312119" Language="SFX">
 					<ShortName>SFX_MetalFootStep04.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep04_9E69E797.wem</Path>
+				</File>
+				<File Id="383002094" Language="SFX">
+					<ShortName>SFX_ShotgunShot.wav</ShortName>
+					<Path>SFX\SFX_ShotgunShot_9E69E797.wem</Path>
+				</File>
+				<File Id="479411988" Language="SFX">
+					<ShortName>SFX_ShotgunPickup.wav</ShortName>
+					<Path>SFX\SFX_ShotgunPickup_9E69E797.wem</Path>
 				</File>
 				<File Id="855607848" Language="SFX">
 					<ShortName>SFX_MetalFootStep03.wav</ShortName>

@@ -286,6 +286,108 @@
 						<ActiveSource Name="SFX_SpaceAlarmSingle" ID="{B5ECEDB3-CF19-4486-B3D8-39FB004088F9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_ShotgunPickup" ID="{7FD1A66E-7599-4B1A-A570-8E78479D58FE}" ShortID="461830930" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_ShotgunPickup" ID="{33D4BEB6-E19D-42A9-B948-5008FD3E114F}" ShortID="479411988">
+							<Language>SFX</Language>
+							<AudioFile>SFX_ShotgunPickup.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_ShotgunPickup" ID="{33D4BEB6-E19D-42A9-B948-5008FD3E114F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_ShotgunShot" ID="{F0E1992A-2296-4756-8739-A8D92E41C714}" ShortID="489490395" Type="SoundFX">
+					<PropertyList>
+						<Property Name="3DPositionSource" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BC42A6F7-73A9-4E71-9BFF-6A3AC8C2A21E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="60"/>
+											<Property Name="Min" Type="Real64" Value="-60"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_ShotgunShot" ID="{32672A96-C9D0-41FF-A5CF-55A92CFEAEC3}" ShortID="383002094">
+							<Language>SFX</Language>
+							<AudioFile>SFX_ShotgunShot.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{447F2708-7395-410C-B1BB-1E6FC573572A}">
+							<ChildrenList>
+								<Path2D Name="SFX_ShotgunShot_Path" ID="{A7BED9C6-EE73-49B9-9A2A-569A7E5FBB8D}">
+									<PointList>
+										<Point>
+											<XPos>27.21519</XPos>
+											<YPos>71.01911</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_ShotgunShot" ID="{32672A96-C9D0-41FF-A5CF-55A92CFEAEC3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_CodePickup" ID="{81910BF7-2149-4224-8405-75791D0106A8}" ShortID="704085262" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_CodePickup" ID="{BB24D664-25E1-430E-BF9C-F080A28FD92E}" ShortID="82769684">
+							<Language>SFX</Language>
+							<AudioFile>SFX_CodePickup.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_CodePickup" ID="{BB24D664-25E1-430E-BF9C-F080A28FD92E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
