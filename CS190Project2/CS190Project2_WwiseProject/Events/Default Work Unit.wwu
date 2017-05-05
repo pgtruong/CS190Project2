@@ -38,7 +38,13 @@
 				</Event>
 				<Event Name="Pickup_Code" ID="{081A5ADE-3BCF-4EC0-A62C-D465D8D65D35}">
 					<ChildrenList>
-						<Action Name="Play" ID="{0DBCA8B9-73D8-4F05-96F3-5BD168D2D8B6}" ShortID="973638694" Type="Play" Scope="One" Global="false"/>
+						<Action Name="Play" ID="{0DBCA8B9-73D8-4F05-96F3-5BD168D2D8B6}" ShortID="973638694" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6A35557B-BDF1-4CB7-B820-13811592C8C3}" Global="false">
+									<ObjectRef Name="SFX_CodePickup" ID="{81910BF7-2149-4224-8405-75791D0106A8}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="Shotgun" ID="{10D92D48-ED11-4060-BAC2-79040852384D}" ShortID="904253576">
@@ -59,7 +65,7 @@
 								<Action Name="Play" ID="{61F43534-694E-47E0-B8BE-9330FE11DD70}" ShortID="3898970" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{48D4ADFD-1235-4556-A20D-69AFE6119CE5}" Global="false">
-											<ObjectRef Name="SFX_CodePickup" ID="{81910BF7-2149-4224-8405-75791D0106A8}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+											<ObjectRef Name="SFX_ShotgunShot" ID="{F0E1992A-2296-4756-8739-A8D92E41C714}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
 										</Element>
 									</ElementList>
 								</Action>

@@ -9,6 +9,7 @@
 						<ObjectRef Name="Shoot_Shotgun" ID="{75A5C40A-14A8-44B4-8E72-03029DB06324}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Sprint" ID="{06175077-0EE4-47D0-BE27-895A67CCBB68}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep" ID="{CF0852C6-30BB-4E1B-B39B-F239E37DD234}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pickup_Code" ID="{081A5ADE-3BCF-4EC0-A62C-D465D8D65D35}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pickup_Shotgun" ID="{3E213413-BCF9-4F66-8D59-C1E340676155}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
