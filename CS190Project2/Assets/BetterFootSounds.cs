@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BetterFootSounds : MonoBehaviour {
 
-    int counter = 0;
     bool isSprinting = false;
 
     void Start()
@@ -15,8 +14,8 @@ public class BetterFootSounds : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        counter++;
-        AkSoundEngine.PostEvent("Footstep", this.gameObject);
+        if (other.CompareTag("Ground"))
+            AkSoundEngine.PostEvent("Footstep", this.gameObject);
     }
 
     public void Sprint(bool sprint)
