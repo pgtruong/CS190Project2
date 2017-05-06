@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,11 +22,13 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3195727128" Name="AlarmFlare" ObjectPath="\Events\Default Work Unit\AlarmFlare"/>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
 				<Event Id="2598235015" Name="Pickup_Code" ObjectPath="\Events\Default Work Unit\Pickup_Code"/>
 				<Event Id="1803401998" Name="Pickup_Shotgun" ObjectPath="\Events\Default Work Unit\Shotgun\Pickup_Shotgun"/>
 				<Event Id="3270553689" Name="Shoot_Shotgun" ObjectPath="\Events\Default Work Unit\Shotgun\Shoot_Shotgun"/>
 				<Event Id="1296465089" Name="Sprint" ObjectPath="\Events\Default Work Unit\Sprint"/>
+				<Event Id="1184125749" Name="UnlockDoor" ObjectPath="\Events\Default Work Unit\UnlockDoor"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="70825949" Language="SFX">
@@ -57,9 +59,17 @@
 					<ShortName>SFX_ShotgunPickup.wav</ShortName>
 					<Path>SFX\SFX_ShotgunPickup_9E69E797.wem</Path>
 				</File>
+				<File Id="515961296" Language="SFX">
+					<ShortName>SFX_CodeUnlock.wav</ShortName>
+					<Path>SFX\SFX_CodeUnlock_9E69E797.wem</Path>
+				</File>
 				<File Id="855607848" Language="SFX">
 					<ShortName>SFX_MetalFootStep03.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep03_9E69E797.wem</Path>
+				</File>
+				<File Id="914416615" Language="SFX">
+					<ShortName>SFX_DoorOpen.wav</ShortName>
+					<Path>SFX\SFX_DoorOpen_9E69E797.wem</Path>
 				</File>
 				<File Id="1030411023" Language="SFX">
 					<ShortName>SFX_PantingLooped.wav</ShortName>

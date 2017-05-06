@@ -22,6 +22,8 @@ public class RotateNotepad : MonoBehaviour {
             pickup.color = temp;
             AkSoundEngine.PostEvent("Pickup_Code", gameObject);
             Destroy(gameObject);
+            GameManager.instance.hasCode = true;
+            GameManager.instance.animateKeypad();
         }
     }
 }

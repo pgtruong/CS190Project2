@@ -63,12 +63,17 @@ public class MonsterController : MonoBehaviour {
     float shotgunCooldown = 1.5f;
     bool enableShoot = true;
 
+    public GameObject[] ignoredColliders;
+
     void Awake()
     {
         GetComponent<Rigidbody>().freezeRotation = true;
         GetComponent<Rigidbody>().useGravity = false;
         footSounds = this.GetComponent<BetterFootSounds>();
         shotgun = gameObject.transform.FindChild("Main Camera").transform.FindChild("Shotgun").gameObject;
+        foreach(GameObject obj in ignoredColliders)
+            foreach(Collider coll in this.GetComponentsInChildren<Collider>())
+                Physics.IgnoreCollision(coll, obj.GetComponent<Collider>());
     }
 
     void Start()

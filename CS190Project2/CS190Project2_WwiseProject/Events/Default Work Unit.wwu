@@ -73,6 +73,28 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="UnlockDoor" ID="{B4358FB5-66A6-4493-8476-261128227447}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3EC5F267-0451-4659-9E89-935A1ACF69C8}" ShortID="1072103378" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{338506D4-D782-4C65-8BA6-0559ED6820CB}" Global="false">
+									<ObjectRef Name="SFX_CodeUnlock" ID="{31A13049-15C2-4171-A3B4-102C98B10409}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DoorOpen" ID="{8DCF75F1-1786-450C-B346-3DBA577E0AF5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{339CD385-118B-492D-9CC6-E5099F8A5ECC}" ShortID="88405250" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4E7921B6-72BF-4A99-89B5-20EE9737ECE7}" Global="false">
+									<ObjectRef Name="SFX_DoorOpen" ID="{1571E6CC-6A7D-461B-8218-2FB25B4188E0}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

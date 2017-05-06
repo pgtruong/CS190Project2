@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorAnimate : MonoBehaviour {
     GameObject door;
+    public bool opened = false;
 
     void Start()
     {
@@ -12,11 +13,11 @@ public class DoorAnimate : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        door.GetComponent<Animation>().Play("open");
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        door.GetComponent<Animation>().Play("close");    
+        if (other.CompareTag("Player") && GameManager.instance.unlockedDoor && !opened)
+        {
+            door.GetComponent<Animation>().Play("open");
+            AkSoundEngine.PostEvent("DoorOpen", this.gameObject);
+            opened = true;
+        }
     }
 }
