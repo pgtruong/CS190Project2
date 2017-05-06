@@ -95,6 +95,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Monster" ID="{C30170D5-2949-4F7B-A6A2-1AE0AF4ADA32}" ShortID="880902881">
+					<ChildrenList>
+						<Event Name="MonsterSpawn" ID="{99CFAFCE-C8F4-46A8-A988-F8847BFB0ADB}">
+							<ChildrenList>
+								<Action Name="Play" ID="{3FFA3F93-1BB6-40DB-B32B-74E6CC75D8F3}" ShortID="994220855" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{84246A19-E0A5-4195-826D-A6BDA36FC112}" Global="false">
+											<ObjectRef Name="SFX_MonsterSpawn" ID="{6E830AE0-80E0-44C0-873D-7EB99FF63733}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MonsterRoar" ID="{1B496172-715A-453A-AC70-07AB0705A291}">
+							<ChildrenList>
+								<Action Name="Play" ID="{A29D37E9-7F91-4657-8D4A-FDF91C7724E0}" ShortID="802109579" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{712391C1-9C8A-4B06-BEAC-C09009C061DA}" Global="false">
+											<ObjectRef Name="SFX_MonsterRoarSingle" ID="{7CE97AF3-56A7-4391-BB7B-A5CE5D4A456A}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

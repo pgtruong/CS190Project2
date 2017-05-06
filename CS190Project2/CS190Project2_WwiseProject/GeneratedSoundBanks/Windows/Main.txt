@@ -7,6 +7,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	2598235015	Pickup_Code			\Default Work Unit\Pickup_Code	
 	3195727128	AlarmFlare			\Default Work Unit\AlarmFlare	
 	3270553689	Shoot_Shotgun			\Default Work Unit\Shotgun\Shoot_Shotgun	
+	3387766641	MonsterRoar			\Default Work Unit\Monster\MonsterRoar	
+	3671059430	MonsterSpawn			\Default Work Unit\Monster\MonsterSpawn	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	2129636626	Movement			\Default Work Unit\Movement	
@@ -28,7 +30,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	383002094	SFX_ShotgunShot	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_ShotgunShot_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ShotgunShot		264664
 	479411988	SFX_ShotgunPickup	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_ShotgunPickup_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ShotgunPickup		176544
 	515961296	SFX_CodeUnlock	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_CodeUnlock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CodeUnlock		573444
+	815053899	SFX_MonsterSpawn	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterSpawn_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_MonsterSpawn		1411344
 	855607848	SFX_MetalFootStep03	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep03		88264
 	914416615	SFX_DoorOpen	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_DoorOpen_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_DoorOpen		228766
+	1010729519	SFX_MonsterRoarSingle	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterRoarSingle_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_MonsterRoarSingle		441144
 	1030411023	SFX_PantingLooped	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_PantingLooped_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_PantingLooped		584468
 

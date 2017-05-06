@@ -24,6 +24,8 @@
 				<Event Id="3195727128" Name="AlarmFlare" ObjectPath="\Events\Default Work Unit\AlarmFlare"/>
 				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
+				<Event Id="3387766641" Name="MonsterRoar" ObjectPath="\Events\Default Work Unit\Monster\MonsterRoar"/>
+				<Event Id="3671059430" Name="MonsterSpawn" ObjectPath="\Events\Default Work Unit\Monster\MonsterSpawn"/>
 				<Event Id="2598235015" Name="Pickup_Code" ObjectPath="\Events\Default Work Unit\Pickup_Code"/>
 				<Event Id="1803401998" Name="Pickup_Shotgun" ObjectPath="\Events\Default Work Unit\Shotgun\Pickup_Shotgun"/>
 				<Event Id="3270553689" Name="Shoot_Shotgun" ObjectPath="\Events\Default Work Unit\Shotgun\Shoot_Shotgun"/>
@@ -63,6 +65,10 @@
 					<ShortName>SFX_CodeUnlock.wav</ShortName>
 					<Path>SFX\SFX_CodeUnlock_9E69E797.wem</Path>
 				</File>
+				<File Id="815053899" Language="SFX">
+					<ShortName>SFX_MonsterSpawn.wav</ShortName>
+					<Path>SFX\SFX_MonsterSpawn_9E69E797.wem</Path>
+				</File>
 				<File Id="855607848" Language="SFX">
 					<ShortName>SFX_MetalFootStep03.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep03_9E69E797.wem</Path>
@@ -70,6 +76,10 @@
 				<File Id="914416615" Language="SFX">
 					<ShortName>SFX_DoorOpen.wav</ShortName>
 					<Path>SFX\SFX_DoorOpen_9E69E797.wem</Path>
+				</File>
+				<File Id="1010729519" Language="SFX">
+					<ShortName>SFX_MonsterRoarSingle.wav</ShortName>
+					<Path>SFX\SFX_MonsterRoarSingle_9E69E797.wem</Path>
 				</File>
 				<File Id="1030411023" Language="SFX">
 					<ShortName>SFX_PantingLooped.wav</ShortName>
