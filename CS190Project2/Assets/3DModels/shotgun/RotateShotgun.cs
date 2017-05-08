@@ -8,6 +8,7 @@ public class RotateShotgun : MonoBehaviour
 
     public float rotateSpeed = 10f;
     public Text pickup;
+    public Image reticle;
 
     void Update()
     {
@@ -23,6 +24,7 @@ public class RotateShotgun : MonoBehaviour
             Color temp = pickup.color;
             temp.a = 1;
             pickup.color = temp;
+            reticle.enabled = true;
             Destroy(gameObject);
         }
     }

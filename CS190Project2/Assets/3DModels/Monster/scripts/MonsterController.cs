@@ -62,9 +62,9 @@ public class MonsterController : MonoBehaviour {
     GameObject shotgun;
     float shotgunCooldown = 1.5f;
     bool enableShoot = true;
-
+    int health = 3;
     public GameObject[] ignoredColliders;
-
+    LineRenderer lineRenderer;
     void Awake()
     {
         GetComponent<Rigidbody>().freezeRotation = true;
@@ -80,10 +80,13 @@ public class MonsterController : MonoBehaviour {
     {
         originalSpeed = speed;
         mainCamera = this.transform.FindChild("Main Camera").GetComponent<Camera>();
+        lineRenderer = mainCamera.transform.FindChild("LineRenderer").GetComponent<LineRenderer>();
     }
 
     void Update()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         if (Input.GetMouseButtonDown(0) && shotgun.activeSelf)
         {
             if (enableShoot)
@@ -117,7 +120,19 @@ public class MonsterController : MonoBehaviour {
     {
         AkSoundEngine.PostEvent("Shoot_Shotgun", this.gameObject);
         enableShoot = false;
+        RaycastHit hit;
+        lineRenderer.SetPosition(0, mainCamera.ViewportToWorldPoint(new Vector3(0.5f,0.5f,1.5f)));
+        lineRenderer.SetPosition(1, mainCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 1.5f)) + mainCamera.transform.forward * 10);
+        lineRenderer.enabled = true;
+        if (Physics.Raycast(mainCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 1.5f)), mainCamera.transform.forward, out hit, 10))
+        {
+            if (hit.collider.CompareTag("Monster"))
+            {
+                Debug.Log("SHEET");
+            }
+        }
         yield return new WaitForSeconds(shotgunCooldown);
+        lineRenderer.enabled = false;
         enableShoot = true;
     }
     void FixedUpdate()
