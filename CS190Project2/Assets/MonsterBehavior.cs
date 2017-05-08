@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MonsterBehavior : MonoBehaviour {
 
-    bool spawned = false;
+    public bool spawned = false;
     public Transform target;
     public float speed = 1.0f;
 
@@ -21,6 +21,7 @@ public class MonsterBehavior : MonoBehaviour {
             Vector3 targetDir = target.position - transform.position;
             targetDir.y = 0;
             transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+            Debug.Log(step);
             transform.forward = Vector3.Slerp(transform.forward, targetDir, Time.deltaTime * 2);
             
         }
@@ -39,5 +40,12 @@ public class MonsterBehavior : MonoBehaviour {
     void RoarCompleted()
     {
         spawned = true;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("AY");
+        if (other.CompareTag("Ground"))
+            AkSoundEngine.PostEvent("Footstep", this.gameObject);
     }
 }
