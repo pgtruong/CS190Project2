@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2\CS190Project2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -23,9 +23,12 @@
 			<IncludedEvents>
 				<Event Id="3195727128" Name="AlarmFlare" ObjectPath="\Events\Default Work Unit\AlarmFlare"/>
 				<Event Id="1516327473" Name="BeginArcadeMusic" ObjectPath="\Events\Default Work Unit\BeginArcadeMusic"/>
+				<Event Id="4201341195" Name="DamageTaken" ObjectPath="\Events\Default Work Unit\Player\DamageTaken"/>
 				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Footstep"/>
+				<Event Id="2621508965" Name="MonsterAttack" ObjectPath="\Events\Default Work Unit\Monster\MonsterAttack"/>
 				<Event Id="900631423" Name="MonsterFootstep" ObjectPath="\Events\Default Work Unit\Monster\MonsterFootstep"/>
+				<Event Id="2501565329" Name="MonsterPain" ObjectPath="\Events\Default Work Unit\Monster\MonsterPain"/>
 				<Event Id="3387766641" Name="MonsterRoar" ObjectPath="\Events\Default Work Unit\Monster\MonsterRoar"/>
 				<Event Id="1678840144" Name="MonsterRun" ObjectPath="\Events\Default Work Unit\Monster\MonsterRun"/>
 				<Event Id="3671059430" Name="MonsterSpawn" ObjectPath="\Events\Default Work Unit\Monster\MonsterSpawn"/>
@@ -40,6 +43,10 @@
 				<File Id="70825949" Language="SFX">
 					<ShortName>SFX_MetalFootStep02.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep02_9E69E797.wem</Path>
+				</File>
+				<File Id="75814847" Language="SFX">
+					<ShortName>SFX_PlayerDamage03.wav</ShortName>
+					<Path>SFX\SFX_PlayerDamage03_9E69E797.wem</Path>
 				</File>
 				<File Id="82769684" Language="SFX">
 					<ShortName>SFX_CodePickup.wav</ShortName>
@@ -56,6 +63,10 @@
 				<File Id="249312119" Language="SFX">
 					<ShortName>SFX_MetalFootStep04.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep04_9E69E797.wem</Path>
+				</File>
+				<File Id="291928993" Language="SFX">
+					<ShortName>SFX_MonsterPain.wav</ShortName>
+					<Path>SFX\SFX_MonsterPain_9E69E797.wem</Path>
 				</File>
 				<File Id="312322606" Language="SFX">
 					<ShortName>SFX_MonsterFootStep04.wav</ShortName>
@@ -85,6 +96,10 @@
 					<ShortName>SFX_ArcadeCabinetMusic.wav</ShortName>
 					<Path>SFX\SFX_ArcadeCabinetMusic_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="673788145" Language="SFX">
+					<ShortName>SFX_PlayerDamage02.wav</ShortName>
+					<Path>SFX\SFX_PlayerDamage02_9E69E797.wem</Path>
+				</File>
 				<File Id="774181929" Language="SFX">
 					<ShortName>SFX_MonsterPant.wav</ShortName>
 					<Path>SFX\SFX_MonsterPant_4B8CC0C5.wem</Path>
@@ -93,6 +108,10 @@
 					<ShortName>SFX_MonsterSpawn.wav</ShortName>
 					<Path>SFX\SFX_MonsterSpawn_9E69E797.wem</Path>
 				</File>
+				<File Id="835603791" Language="SFX">
+					<ShortName>SFX_PlayerDamage01.wav</ShortName>
+					<Path>SFX\SFX_PlayerDamage01_9E69E797.wem</Path>
+				</File>
 				<File Id="855607848" Language="SFX">
 					<ShortName>SFX_MetalFootStep03.wav</ShortName>
 					<Path>SFX\SFX_MetalFootStep03_9E69E797.wem</Path>
@@ -100,6 +119,14 @@
 				<File Id="914416615" Language="SFX">
 					<ShortName>SFX_DoorOpen.wav</ShortName>
 					<Path>SFX\SFX_DoorOpen_9E69E797.wem</Path>
+				</File>
+				<File Id="915581127" Language="SFX">
+					<ShortName>SFX_MonsterAttack.wav</ShortName>
+					<Path>SFX\SFX_MonsterAttack_9E69E797.wem</Path>
+				</File>
+				<File Id="943819382" Language="SFX">
+					<ShortName>SFX_PlayerDamage04.wav</ShortName>
+					<Path>SFX\SFX_PlayerDamage04_9E69E797.wem</Path>
 				</File>
 				<File Id="1010729519" Language="SFX">
 					<ShortName>SFX_MonsterRoarSingle.wav</ShortName>

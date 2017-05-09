@@ -81,7 +81,10 @@ public class MonsterBehavior : MonoBehaviour {
         if (other.CompareTag("Player"))
         {
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
                 animator.SetTrigger("attack" + Random.Range(1, 3).ToString());
+                AkSoundEngine.PostEvent("MonsterAttack", this.gameObject);
+            }
         }
     }
 }

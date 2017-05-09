@@ -5,9 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{3D39D8BF-B1AD-4164-9B81-4B75C80E218B}">
 					<ObjectInclusionList>
+						<ObjectRef Name="MonsterPain" ID="{CA349FBD-3747-402C-8B9D-09C7151A5387}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MonsterRun" ID="{56DCB317-9437-4118-939E-5B140D8850C5}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DamageTaken" ID="{EE5691EE-B1A3-42DF-83EE-7674CFEBAFEA}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AlarmFlare" ID="{54A4DCD3-D019-4304-8AB6-E4F81D756170}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UnlockDoor" ID="{B4358FB5-66A6-4493-8476-261128227447}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MonsterAttack" ID="{E6097B0E-8ABC-44B3-94E1-4EF02DC6F15A}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Shoot_Shotgun" ID="{75A5C40A-14A8-44B4-8E72-03029DB06324}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorOpen" ID="{8DCF75F1-1786-450C-B346-3DBA577E0AF5}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MonsterRoar" ID="{1B496172-715A-453A-AC70-07AB0705A291}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>

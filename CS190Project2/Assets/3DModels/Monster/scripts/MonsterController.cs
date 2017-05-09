@@ -175,6 +175,7 @@ public class MonsterController : MonoBehaviour {
             if (hit.collider.CompareTag("Monster"))
             {
                 monster.health--;
+                AkSoundEngine.PostEvent("MonsterPain", this.gameObject);
             }
         }
         yield return new WaitForSeconds(shotgunCooldown);
@@ -282,6 +283,7 @@ public class MonsterController : MonoBehaviour {
     IEnumerator TakeDamage()
     {
         health--;
+        AkSoundEngine.PostEvent("DamageTaken", this.gameObject);
         yield return new WaitForSeconds(1f);
     }
     void OnCollisionEnter(Collision other)

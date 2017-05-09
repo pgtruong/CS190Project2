@@ -119,6 +119,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MonsterAttack" ID="{E6097B0E-8ABC-44B3-94E1-4EF02DC6F15A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{0062D22F-EB4F-40BA-9E07-B071D12C5819}" ShortID="1071830310" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{ACCFB191-388C-4794-8BB2-C7FD41F8B462}" Global="false">
+											<ObjectRef Name="SFX_MonsterAttack" ID="{6A17410E-1E87-409E-A17C-D11F330DA40D}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MonsterPain" ID="{CA349FBD-3747-402C-8B9D-09C7151A5387}">
+							<ChildrenList>
+								<Action Name="Play" ID="{4B3E1D65-004C-4A10-8FC4-58028350B9B0}" ShortID="665707658" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{481C9907-9974-46F6-8356-608BEE1B4FB8}" Global="false">
+											<ObjectRef Name="SFX_MonsterPain" ID="{87F5AB04-0B85-436B-BB6D-B75B437B84B7}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{63D6B71B-E3D0-4195-A5C8-B4E1E6AEF5BE}" ShortID="1041235210">
@@ -151,6 +173,17 @@
 									<ElementList>
 										<Element ID="{B126E9A0-966F-44A9-951F-69ED47A21B27}" Global="false">
 											<ObjectRef Name="SFX_OPScream" ID="{8E523D7E-4D3F-4D99-9466-8FB924A194EF}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DamageTaken" ID="{EE5691EE-B1A3-42DF-83EE-7674CFEBAFEA}">
+							<ChildrenList>
+								<Action Name="Play" ID="{9D967891-2AC0-4878-9C4B-A4126BD2320A}" ShortID="406587849" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{46973651-27F9-4685-8721-901D9EC76A62}" Global="false">
+											<ObjectRef Name="Damaged" ID="{B0DDFE4F-1803-45DA-B7BF-E59BA0C839A5}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
 										</Element>
 									</ElementList>
 								</Action>
