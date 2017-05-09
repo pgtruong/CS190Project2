@@ -141,6 +141,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MonsterDeath" ID="{FDDE97A1-787A-4590-8A8D-DAF28E5A2702}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{08250D5A-9A6C-44C8-8F75-B7FEFA61F1F1}" ShortID="359166334" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B4DB78B6-4612-4743-9A04-6370A3E562CE}" Global="false">
+											<ObjectRef Name="SFX_MonsterPant" ID="{1BB0B29B-C7E9-4B21-AA6F-93770B6D7797}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{63D6B71B-E3D0-4195-A5C8-B4E1E6AEF5BE}" ShortID="1041235210">

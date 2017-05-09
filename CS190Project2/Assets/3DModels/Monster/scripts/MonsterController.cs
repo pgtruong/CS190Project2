@@ -120,7 +120,7 @@ public class MonsterController : MonoBehaviour {
             lose.SetActive(true);
         }            
 
-        if (monster.health == 0)
+        if (monster.dead)
         {
             AkSoundEngine.StopAll();
             Time.timeScale = 0;
@@ -174,8 +174,8 @@ public class MonsterController : MonoBehaviour {
         {
             if (hit.collider.CompareTag("Monster"))
             {
-                monster.health--;
-                AkSoundEngine.PostEvent("MonsterPain", this.gameObject);
+                monster.takeDamage();
+
             }
         }
         yield return new WaitForSeconds(shotgunCooldown);

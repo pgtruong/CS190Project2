@@ -1132,6 +1132,7 @@
 				</Folder>
 				<Sound Name="SFX_ArcadeCabinetMusic" ID="{BC4A6DD3-70A5-4A02-BE42-72D313E787FB}" ShortID="705931415" Type="SoundFX">
 					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">

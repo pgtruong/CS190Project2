@@ -27,6 +27,7 @@
 				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen"/>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Footstep"/>
 				<Event Id="2621508965" Name="MonsterAttack" ObjectPath="\Events\Default Work Unit\Monster\MonsterAttack"/>
+				<Event Id="3954574265" Name="MonsterDeath" ObjectPath="\Events\Default Work Unit\Monster\MonsterDeath"/>
 				<Event Id="900631423" Name="MonsterFootstep" ObjectPath="\Events\Default Work Unit\Monster\MonsterFootstep"/>
 				<Event Id="2501565329" Name="MonsterPain" ObjectPath="\Events\Default Work Unit\Monster\MonsterPain"/>
 				<Event Id="3387766641" Name="MonsterRoar" ObjectPath="\Events\Default Work Unit\Monster\MonsterRoar"/>

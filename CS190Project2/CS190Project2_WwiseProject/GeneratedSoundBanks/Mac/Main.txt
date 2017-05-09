@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3270553689	Shoot_Shotgun			\Default Work Unit\Shotgun\Shoot_Shotgun	
 	3387766641	MonsterRoar			\Default Work Unit\Monster\MonsterRoar	
 	3671059430	MonsterSpawn			\Default Work Unit\Monster\MonsterSpawn	
+	3954574265	MonsterDeath			\Default Work Unit\Monster\MonsterDeath	
 	4201341195	DamageTaken			\Default Work Unit\Player\DamageTaken	
 
 State Group	ID	Name			Wwise Object Path	Notes

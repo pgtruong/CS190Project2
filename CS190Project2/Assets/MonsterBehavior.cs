@@ -12,6 +12,8 @@ public class MonsterBehavior : MonoBehaviour {
     Animator animator;
     CapsuleCollider capCol;
     public int health = 2;
+    public bool dead = false;
+
 
     void Start()
     {
@@ -70,6 +72,11 @@ public class MonsterBehavior : MonoBehaviour {
         runEventID = AkSoundEngine.PostEvent("MonsterRun", this.gameObject);
     }
 
+    void Killed()
+    {
+        StartCoroutine(WaitSeconds(7));
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Ground"))
@@ -86,5 +93,24 @@ public class MonsterBehavior : MonoBehaviour {
                 AkSoundEngine.PostEvent("MonsterAttack", this.gameObject);
             }
         }
+    }
+
+    public void takeDamage()
+    {
+        health--;
+        if (health == 0)
+        {
+            animator.Play("Die");
+            AkSoundEngine.PostEvent("MonsterDeath", this.gameObject);
+        }
+        else
+            animator.Play("Damaged");
+        AkSoundEngine.PostEvent("MonsterPain", this.gameObject);
+    }
+
+    IEnumerator WaitSeconds(int seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        dead = true;
     }
 }

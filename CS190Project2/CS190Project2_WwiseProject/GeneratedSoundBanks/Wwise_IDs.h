@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID MONSTERATTACK = 2621508965U;
+        static const AkUniqueID MONSTERDEATH = 3954574265U;
         static const AkUniqueID MONSTERFOOTSTEP = 900631423U;
         static const AkUniqueID MONSTERPAIN = 2501565329U;
         static const AkUniqueID MONSTERROAR = 3387766641U;
