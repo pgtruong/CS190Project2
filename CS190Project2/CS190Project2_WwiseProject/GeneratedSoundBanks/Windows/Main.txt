@@ -1,9 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
+	900631423	MonsterFootstep			\Default Work Unit\Monster\MonsterFootstep	
 	1184125749	UnlockDoor			\Default Work Unit\UnlockDoor	
-	1296465089	Sprint			\Default Work Unit\Sprint	
+	1296465089	Sprint			\Default Work Unit\Player\Sprint	
 	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
+	1516327473	BeginArcadeMusic			\Default Work Unit\BeginArcadeMusic	
+	1678840144	MonsterRun			\Default Work Unit\Monster\MonsterRun	
 	1803401998	Pickup_Shotgun			\Default Work Unit\Shotgun\Pickup_Shotgun	
-	1866025847	Footstep			\Default Work Unit\Footstep	
+	1866025847	Footstep			\Default Work Unit\Player\Footstep	
+	2012141915	OPScream			\Default Work Unit\Player\OPScream	
 	2598235015	Pickup_Code			\Default Work Unit\Pickup_Code	
 	3195727128	AlarmFlare			\Default Work Unit\AlarmFlare	
 	3270553689	Shoot_Shotgun			\Default Work Unit\Shotgun\Shoot_Shotgun	
@@ -19,20 +23,27 @@ State	ID	Name	State Group			Notes
 	2108779966	Walk	Movement			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	195300930	Walk	Movement	\Actor-Mixer Hierarchy\Default Work Unit\SFX_PantingLooped		
+	195300930	Walk	Movement	\Actor-Mixer Hierarchy\Default Work Unit\Player\SFX_PantingLooped		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	70825949	SFX_MetalFootStep02	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep02		88264
+	70825949	SFX_MetalFootStep02	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\MetalFootStep\SFX_MetalFootStep02		88264
 	82769684	SFX_CodePickup	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_CodePickup_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CodePickup		50798
-	143122849	SFX_MetalFootStep01	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep01		88264
+	143122849	SFX_MetalFootStep01	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\MetalFootStep\SFX_MetalFootStep01		88264
 	153380551	SFX_SpaceAlarmSingle	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_SpaceAlarmSingle_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceAlarmSingle		125092
-	249312119	SFX_MetalFootStep04	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep04		88264
+	249312119	SFX_MetalFootStep04	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\MetalFootStep\SFX_MetalFootStep04		88264
+	312322606	SFX_MonsterFootStep04	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterFootStep04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\MonsterFootStep\SFX_MonsterFootStep04		88344
 	383002094	SFX_ShotgunShot	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_ShotgunShot_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ShotgunShot		264664
 	479411988	SFX_ShotgunPickup	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_ShotgunPickup_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ShotgunPickup		176544
+	486587658	SFX_OPScream	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_OPScream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\SFX_OPScream		88344
 	515961296	SFX_CodeUnlock	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_CodeUnlock_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_CodeUnlock		573444
+	584024974	SFX_MonsterFootStep01	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterFootStep01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\MonsterFootStep\SFX_MonsterFootStep01		88344
+	648826980	SFX_ArcadeCabinetMusic	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_ArcadeCabinetMusic_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ArcadeCabinetMusic		39988288
+	774181929	SFX_MonsterPant	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterPant_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_MonsterPant		6482764
 	815053899	SFX_MonsterSpawn	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterSpawn_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_MonsterSpawn		1411344
-	855607848	SFX_MetalFootStep03	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MetalFootStep\SFX_MetalFootStep03		88264
+	855607848	SFX_MetalFootStep03	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MetalFootStep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\MetalFootStep\SFX_MetalFootStep03		88264
 	914416615	SFX_DoorOpen	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_DoorOpen_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_DoorOpen		228766
 	1010729519	SFX_MonsterRoarSingle	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterRoarSingle_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_MonsterRoarSingle		441144
-	1030411023	SFX_PantingLooped	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_PantingLooped_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_PantingLooped		584468
+	1017545153	SFX_MonsterFootStep02	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterFootStep02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\MonsterFootStep\SFX_MonsterFootStep02		88344
+	1030411023	SFX_PantingLooped	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_PantingLooped_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\SFX_PantingLooped		584468
+	1042060236	SFX_MonsterFootStep03	C:\Users\Efren\Documents\CS190Project2\CS190Project2\CS190Project2_WwiseProject\.cache\Windows\SFX\SFX_MonsterFootStep03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\MonsterFootStep\SFX_MonsterFootStep03		88344
 

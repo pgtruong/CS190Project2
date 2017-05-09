@@ -3,212 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="MetalFootStep" ID="{568DD565-837F-4655-A9E2-BA9409347119}" ShortID="1070125787">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{F7F1741A-3043-4B90-B147-3AA7B0626CD3}">
-										<PropertyList>
-											<Property Name="Max" Type="Real64" Value="25"/>
-											<Property Name="Min" Type="Real64" Value="-25"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="SFX_MetalFootStep04" ID="{B0526BB2-EAF6-4BD4-94E4-8FAF204118B5}" ShortID="162233801" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{489A0E15-F560-4426-99C6-13730AB3CE3E}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-51"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_MetalFootStep04" ID="{DE4A8564-3F39-4A58-9985-46EEFA121C9B}" ShortID="249312119">
-									<Language>SFX</Language>
-									<AudioFile>SFX_MetalFootStep04.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_MetalFootStep04" ID="{DE4A8564-3F39-4A58-9985-46EEFA121C9B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SFX_MetalFootStep01" ID="{F6DA66A9-BE72-4EA5-B41F-9D4F92D20FFB}" ShortID="642941166" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{4A4C8FCA-9378-4ED9-96D6-8A2096C928BC}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_MetalFootStep01" ID="{4FCF7B40-D746-4B24-83F4-B968935FBDEC}" ShortID="143122849">
-									<Language>SFX</Language>
-									<AudioFile>SFX_MetalFootStep01.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_MetalFootStep01" ID="{4FCF7B40-D746-4B24-83F4-B968935FBDEC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SFX_MetalFootStep02" ID="{37D33DEB-D50A-4FC4-9F0D-36C6F333467E}" ShortID="606849753" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{C3E8F56B-4EC9-42FC-998D-248B641C36EE}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_MetalFootStep02" ID="{6603D79B-688A-4B65-857A-86F32127CBB1}" ShortID="70825949">
-									<Language>SFX</Language>
-									<AudioFile>SFX_MetalFootStep02.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_MetalFootStep02" ID="{6603D79B-688A-4B65-857A-86F32127CBB1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SFX_MetalFootStep03" ID="{BC05EF23-D8BD-4D44-BE6D-6D1FC43BA9E9}" ShortID="99132340" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{D5026060-1284-4A93-9C6D-885A156A3CD5}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_MetalFootStep03" ID="{4E6F9FD6-AF99-4EC2-965D-BAC0BCC215EA}" ShortID="855607848">
-									<Language>SFX</Language>
-									<AudioFile>SFX_MetalFootStep03.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_MetalFootStep03" ID="{4E6F9FD6-AF99-4EC2-965D-BAC0BCC215EA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<Sound Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" ShortID="526146133" Type="SoundFX">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-13</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" ShortID="1030411023">
-							<Language>SFX</Language>
-							<AudioFile>SFX_PantingLooped.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="Movement" ID="{7C37C818-A079-4B82-8908-56B6F5542A05}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="Walk" ID="{EB08D867-B1B9-419A-AE91-C3D67EEB6724}"/>
-								<State Name="Custom State" ID="{EC2BA2AF-96B0-4416-819C-A5B5BD113828}" ShortID="195300930">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64" Value="-100"/>
-									</PropertyList>
-								</State>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="SFX_SpaceAlarmSingle" ID="{F69BA41F-7D2F-4A67-8BFD-683B457ED614}" ShortID="655597671" Type="SoundFX">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
@@ -311,6 +105,10 @@
 							<Language>SFX</Language>
 							<AudioFile>SFX_ShotgunPickup.wav</AudioFile>
 						</AudioFileSource>
+						<AudioFileSource Name="SFX_ArcadeCabinetMusic" ID="{8EBFD774-3E28-4744-B433-64CF32A01C1D}" ShortID="523864916">
+							<Language>SFX</Language>
+							<AudioFile>SFX_ArcadeCabinetMusic.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_ShotgunPickup" ID="{33D4BEB6-E19D-42A9-B948-5008FD3E114F}" Platform="Linked"/>
@@ -412,6 +210,13 @@
 						<AudioFileSource Name="SFX_CodeUnlock" ID="{B972FDC4-5FE3-4448-A4E8-24CB3C78D6D8}" ShortID="515961296">
 							<Language>SFX</Language>
 							<AudioFile>SFX_CodeUnlock.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="SFX_ArcadeCabinetMusic" ID="{75F88E45-28E5-45D7-8673-A31606AE3834}" ShortID="1028635992">
+							<Language>SFX</Language>
+							<AudioFile>SFX_ArcadeCabinetMusic.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="523864916"/>
+							</ConvertedFileIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
@@ -668,8 +473,497 @@
 								<ActiveSource Name="SFX_MonsterSpawn" ID="{3A453234-C548-449D-8113-D797F51462CE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="MonsterFootStep" ID="{91781041-6DC3-4773-8027-B540649733E7}" ShortID="812307044">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0BB7F844-ACE9-441E-BCB3-94B2FC208937}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MonsterFootStep01" ID="{83A9960E-F287-4275-BD99-079582C694B5}" ShortID="769794645" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MonsterFootStep01" ID="{86054000-45A6-40E1-9BE2-2A3F35C57179}" ShortID="584024974">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MonsterFootStep01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MonsterFootStep01" ID="{86054000-45A6-40E1-9BE2-2A3F35C57179}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MonsterFootStep02" ID="{B11493D2-26B4-4D9C-B554-A27952AAA162}" ShortID="913656181" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MonsterFootStep02" ID="{684CEFC9-C9AF-41F9-BFFE-6923ADF69296}" ShortID="1017545153">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MonsterFootStep02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MonsterFootStep02" ID="{684CEFC9-C9AF-41F9-BFFE-6923ADF69296}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MonsterFootStep03" ID="{18B4487C-F25F-4733-9B19-4B6CC1581D7B}" ShortID="57710073" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MonsterFootStep03" ID="{8651AD09-664F-4D72-9B0D-5116BB5D953A}" ShortID="1042060236">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MonsterFootStep03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MonsterFootStep03" ID="{8651AD09-664F-4D72-9B0D-5116BB5D953A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MonsterFootStep04" ID="{9862A1C8-AD31-46F2-8AA7-F54772D02861}" ShortID="92260532" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MonsterFootStep04" ID="{BFE604D5-ED44-44CE-8E64-D162B5C9C87B}" ShortID="312322606">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MonsterFootStep04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MonsterFootStep04" ID="{BFE604D5-ED44-44CE-8E64-D162B5C9C87B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="SFX_MonsterPant" ID="{1BB0B29B-C7E9-4B21-AA6F-93770B6D7797}" ShortID="482930470" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{D055F527-E61A-48BF-9BFD-2BF1478A524B}" ShortID="278825588">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="30"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{66E308C8-CB41-41A6-B495-1CEA1A96D09A}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MonsterPant" ID="{1973291F-2688-4938-8E38-3DDC88BCFF18}" ShortID="774181929">
+									<Language>SFX</Language>
+									<AudioFile>SFX_MonsterPant.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MonsterPant" ID="{1973291F-2688-4938-8E38-3DDC88BCFF18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player" ID="{2351EEEA-9501-4725-877D-97DDCFB43D9F}" ShortID="188968806">
+					<ChildrenList>
+						<Sound Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" ShortID="526146133" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" ShortID="1030411023">
+									<Language>SFX</Language>
+									<AudioFile>SFX_PantingLooped.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Movement" ID="{7C37C818-A079-4B82-8908-56B6F5542A05}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Walk" ID="{EB08D867-B1B9-419A-AE91-C3D67EEB6724}"/>
+										<State Name="Custom State" ID="{EC2BA2AF-96B0-4416-819C-A5B5BD113828}" ShortID="195300930">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-100"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_PantingLooped" ID="{89AA2624-8614-4012-9447-A4DC1601E224}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="MetalFootStep" ID="{568DD565-837F-4655-A9E2-BA9409347119}" ShortID="1070125787">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F7F1741A-3043-4B90-B147-3AA7B0626CD3}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MetalFootStep04" ID="{B0526BB2-EAF6-4BD4-94E4-8FAF204118B5}" ShortID="162233801" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{489A0E15-F560-4426-99C6-13730AB3CE3E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MetalFootStep04" ID="{DE4A8564-3F39-4A58-9985-46EEFA121C9B}" ShortID="249312119">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MetalFootStep04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MetalFootStep04" ID="{DE4A8564-3F39-4A58-9985-46EEFA121C9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MetalFootStep01" ID="{F6DA66A9-BE72-4EA5-B41F-9D4F92D20FFB}" ShortID="642941166" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4A4C8FCA-9378-4ED9-96D6-8A2096C928BC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MetalFootStep01" ID="{4FCF7B40-D746-4B24-83F4-B968935FBDEC}" ShortID="143122849">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MetalFootStep01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MetalFootStep01" ID="{4FCF7B40-D746-4B24-83F4-B968935FBDEC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MetalFootStep02" ID="{37D33DEB-D50A-4FC4-9F0D-36C6F333467E}" ShortID="606849753" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C3E8F56B-4EC9-42FC-998D-248B641C36EE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MetalFootStep02" ID="{6603D79B-688A-4B65-857A-86F32127CBB1}" ShortID="70825949">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MetalFootStep02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MetalFootStep02" ID="{6603D79B-688A-4B65-857A-86F32127CBB1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MetalFootStep03" ID="{BC05EF23-D8BD-4D44-BE6D-6D1FC43BA9E9}" ShortID="99132340" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D5026060-1284-4A93-9C6D-885A156A3CD5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MetalFootStep03" ID="{4E6F9FD6-AF99-4EC2-965D-BAC0BCC215EA}" ShortID="855607848">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MetalFootStep03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MetalFootStep03" ID="{4E6F9FD6-AF99-4EC2-965D-BAC0BCC215EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="SFX_OPScream" ID="{8E523D7E-4D3F-4D99-9466-8FB924A194EF}" ShortID="1036908492" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_OPScream" ID="{2FDCACBB-BCE9-40F8-9555-7E44AB1FB72F}" ShortID="486587658">
+									<Language>SFX</Language>
+									<AudioFile>SFX_OPScream.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_OPScream" ID="{2FDCACBB-BCE9-40F8-9555-7E44AB1FB72F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="SFX_ArcadeCabinetMusic" ID="{BC4A6DD3-70A5-4A02-BE42-72D313E787FB}" ShortID="705931415" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{B6FF4489-A1EF-4743-B94E-083C0AE7F9E0}" ShortID="520189912">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{34F0CA97-8049-41FC-8C51-8E69F508607C}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10CF4ECB-6905-4655-9FC1-77D7BAC43227}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DA38801-35C9-41B6-B0A1-9251997C34A0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_ArcadeCabinetMusic" ID="{4C4938BE-5362-48E8-AC6E-5855BFBB0381}" ShortID="648826980">
+							<Language>SFX</Language>
+							<AudioFile>SFX_ArcadeCabinetMusic.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_ArcadeCabinetMusic" ID="{4C4938BE-5362-48E8-AC6E-5855BFBB0381}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

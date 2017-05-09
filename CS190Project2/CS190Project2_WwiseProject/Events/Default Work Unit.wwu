@@ -3,28 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Footstep" ID="{CF0852C6-30BB-4E1B-B39B-F239E37DD234}">
-					<ChildrenList>
-						<Action Name="Play" ID="{1D59537C-D46B-4494-8E3D-60FF1D6A3604}" ShortID="662367900" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{304ABC60-CC52-43A7-B92D-2DC62AE6523C}" Global="false">
-									<ObjectRef Name="MetalFootStep" ID="{568DD565-837F-4655-A9E2-BA9409347119}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Sprint" ID="{06175077-0EE4-47D0-BE27-895A67CCBB68}">
-					<ChildrenList>
-						<Action Name="Play" ID="{23AB6D69-85EE-4A1E-A76B-D7025D43DE99}" ShortID="143618236" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{3611ACCD-4B90-4B10-9DAF-1F734118C169}" Global="false">
-									<ObjectRef Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="AlarmFlare" ID="{54A4DCD3-D019-4304-8AB6-E4F81D756170}">
 					<ChildrenList>
 						<Action Name="Play" ID="{0124B1E1-7237-46FD-BEA4-C0CC31072B8D}" ShortID="656988443" Type="Play" Scope="One" Global="false">
@@ -119,8 +97,78 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MonsterFootstep" ID="{2162B054-F6C0-4F3C-9988-17F3AFB887D1}">
+							<ChildrenList>
+								<Action Name="Play" ID="{C8FAD2A2-2CDF-4073-89CE-F7145C1C8020}" ShortID="177964767" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{624B6F76-2669-4E08-8DC0-39ABB8462959}" Global="false">
+											<ObjectRef Name="MonsterFootStep" ID="{91781041-6DC3-4773-8027-B540649733E7}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MonsterRun" ID="{56DCB317-9437-4118-939E-5B140D8850C5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{CD1C973F-CB6E-4F7F-98AC-ED9506DA64F3}" ShortID="85359585" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{5E2DCBB1-1B19-48FE-AB1F-636726E867FF}" Global="false">
+											<ObjectRef Name="SFX_MonsterPant" ID="{1BB0B29B-C7E9-4B21-AA6F-93770B6D7797}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player" ID="{63D6B71B-E3D0-4195-A5C8-B4E1E6AEF5BE}" ShortID="1041235210">
+					<ChildrenList>
+						<Event Name="Footstep" ID="{CF0852C6-30BB-4E1B-B39B-F239E37DD234}">
+							<ChildrenList>
+								<Action Name="Play" ID="{1D59537C-D46B-4494-8E3D-60FF1D6A3604}" ShortID="662367900" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{304ABC60-CC52-43A7-B92D-2DC62AE6523C}" Global="false">
+											<ObjectRef Name="MetalFootStep" ID="{568DD565-837F-4655-A9E2-BA9409347119}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sprint" ID="{06175077-0EE4-47D0-BE27-895A67CCBB68}">
+							<ChildrenList>
+								<Action Name="Play" ID="{23AB6D69-85EE-4A1E-A76B-D7025D43DE99}" ShortID="143618236" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{3611ACCD-4B90-4B10-9DAF-1F734118C169}" Global="false">
+											<ObjectRef Name="SFX_PantingLooped" ID="{7AB8D554-DC50-4D17-85D4-D9812DB30A3D}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="OPScream" ID="{60563A6E-3A43-4B3F-B155-2BA81330A519}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7724E336-A812-47BA-B28A-79616959F553}" ShortID="724878881" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B126E9A0-966F-44A9-951F-69ED47A21B27}" Global="false">
+											<ObjectRef Name="SFX_OPScream" ID="{8E523D7E-4D3F-4D99-9466-8FB924A194EF}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="BeginArcadeMusic" ID="{EC9674B2-3052-499A-993E-331B683FE34D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{11205CA5-B577-4EC3-A22E-6D62EC00194B}" ShortID="967978880" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C0500AE9-7962-418F-8418-F38088D197CA}" Global="false">
+									<ObjectRef Name="SFX_ArcadeCabinetMusic" ID="{BC4A6DD3-70A5-4A02-BE42-72D313E787FB}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

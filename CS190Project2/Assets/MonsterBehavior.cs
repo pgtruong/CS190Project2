@@ -7,10 +7,21 @@ public class MonsterBehavior : MonoBehaviour {
     public bool spawned = false;
     public Transform target;
     public float speed = 1.0f;
+    public bool seen = false;
+    uint runEventID;
 
     public void Spawn()
     {
 
+    }
+
+    void Update()
+    {
+        if(!seen && spawned && this.GetComponentInChildren<SkinnedMeshRenderer>().isVisible)
+        {
+            AkSoundEngine.PostEvent("OPScream", target.gameObject);
+            seen = true;
+        }
     }
 
     void FixedUpdate()
@@ -21,7 +32,6 @@ public class MonsterBehavior : MonoBehaviour {
             Vector3 targetDir = target.position - transform.position;
             targetDir.y = 0;
             transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-            Debug.Log(step);
             transform.forward = Vector3.Slerp(transform.forward, targetDir, Time.deltaTime * 2);
             
         }
@@ -40,12 +50,12 @@ public class MonsterBehavior : MonoBehaviour {
     void RoarCompleted()
     {
         spawned = true;
+        runEventID = AkSoundEngine.PostEvent("MonsterRun", this.gameObject);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("AY");
         if (other.CompareTag("Ground"))
-            AkSoundEngine.PostEvent("Footstep", this.gameObject);
+            AkSoundEngine.PostEvent("MonsterFootstep", this.gameObject);
     }
 }

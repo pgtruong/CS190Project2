@@ -14,10 +14,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID ALARMFLARE = 3195727128U;
+        static const AkUniqueID BEGINARCADEMUSIC = 1516327473U;
         static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID MONSTERFOOTSTEP = 900631423U;
         static const AkUniqueID MONSTERROAR = 3387766641U;
+        static const AkUniqueID MONSTERRUN = 1678840144U;
         static const AkUniqueID MONSTERSPAWN = 3671059430U;
+        static const AkUniqueID OPSCREAM = 2012141915U;
         static const AkUniqueID PICKUP_CODE = 2598235015U;
         static const AkUniqueID PICKUP_SHOTGUN = 1803401998U;
         static const AkUniqueID SHOOT_SHOTGUN = 3270553689U;
