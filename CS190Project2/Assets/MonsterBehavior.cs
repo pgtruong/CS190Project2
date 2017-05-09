@@ -31,8 +31,9 @@ public class MonsterBehavior : MonoBehaviour {
             float step = speed * Time.deltaTime;
             Vector3 targetDir = target.position - transform.position;
             targetDir.y = 0;
-            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-            transform.forward = Vector3.Slerp(transform.forward, targetDir, Time.deltaTime * 2);
+            Vector3 targetPos = new Vector3(target.position.x, transform.position.y, target.position.z);
+            transform.position = Vector3.MoveTowards(transform.position, targetPos, step);
+            transform.forward = Vector3.Slerp(transform.forward, targetDir, Time.deltaTime * 10f);
             
         }
     }

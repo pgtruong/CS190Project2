@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MonsterController : MonoBehaviour {
     float maxVelocityChange = 10.0f;
@@ -48,7 +49,7 @@ public class MonsterController : MonoBehaviour {
     private bool fightmodus = false;
     private bool didselect = false;
     private bool canattack = true;
-    public enum RotationAxes { MouseXAndY = 0, MouseX=1, MouseY=2};
+    public enum RotationAxes { MouseXAndY = 0, MouseX=1, MouseY=2, None=3};
     public RotationAxes axes = RotationAxes.MouseXAndY;
     public float sensitivityX = 15f;
     public float sensitivityY = 15f;
@@ -63,8 +64,12 @@ public class MonsterController : MonoBehaviour {
     float shotgunCooldown = 1.5f;
     bool enableShoot = true;
     int health = 3;
+    public Text healthText;
     public GameObject[] ignoredColliders;
     LineRenderer lineRenderer;
+    bool lose = false;
+    bool pause = false;
+    public GameObject pauseMenu;
     void Awake()
     {
         GetComponent<Rigidbody>().freezeRotation = true;
@@ -85,8 +90,30 @@ public class MonsterController : MonoBehaviour {
 
     void Update()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        if (pause)
+        {
+            Time.timeScale = 0;
+            axes = RotationAxes.None;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            pauseMenu.SetActive(true);
+        }
+        else
+        {
+            Time.timeScale = 1;
+            axes = RotationAxes.MouseXAndY;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            pauseMenu.SetActive(false);
+        }
+        healthText.text = "(Press ESC to pause)\nHealth: " + health + "/3";
+        if (health == 0)
+            lose = true;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {            
+            pause = !pause;
+        }
         if (Input.GetMouseButtonDown(0) && shotgun.activeSelf)
         {
             if (enableShoot)
@@ -237,7 +264,7 @@ public class MonsterController : MonoBehaviour {
     {
         if (other.collider.CompareTag("Ground"))
             grounded = true;
-        else
+        else if (!other.collider.CompareTag("Monster"))
         {
             grounded = false;
         }
