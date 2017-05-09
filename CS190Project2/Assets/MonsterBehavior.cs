@@ -9,6 +9,15 @@ public class MonsterBehavior : MonoBehaviour {
     public float speed = 1.0f;
     public bool seen = false;
     uint runEventID;
+    Animator animator;
+    CapsuleCollider capCol;
+    public int health = 2;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        capCol = GetComponent<CapsuleCollider>();
+    }
 
     public void Spawn()
     {
@@ -22,11 +31,18 @@ public class MonsterBehavior : MonoBehaviour {
             AkSoundEngine.PostEvent("OPScream", target.gameObject);
             seen = true;
         }
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run") || animator.GetCurrentAnimatorStateInfo(0).IsName("Spawn")
+            || animator.GetCurrentAnimatorStateInfo(0).IsName("Roar"))
+            capCol.enabled = false;
+        else
+            capCol.enabled = true;
+        
     }
 
     void FixedUpdate()
     {
-        if(spawned)
+        if (spawned && animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
         {
             float step = speed * Time.deltaTime;
             Vector3 targetDir = target.position - transform.position;
@@ -58,5 +74,14 @@ public class MonsterBehavior : MonoBehaviour {
     {
         if (other.CompareTag("Ground"))
             AkSoundEngine.PostEvent("MonsterFootstep", this.gameObject);
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+                animator.SetTrigger("attack" + Random.Range(1, 3).ToString());
+        }
     }
 }

@@ -67,9 +67,11 @@ public class MonsterController : MonoBehaviour {
     public Text healthText;
     public GameObject[] ignoredColliders;
     LineRenderer lineRenderer;
-    bool lose = false;
     bool pause = false;
     public GameObject pauseMenu;
+    public GameObject win;
+    public GameObject lose;
+    public MonsterBehavior monster;
     void Awake()
     {
         GetComponent<Rigidbody>().freezeRotation = true;
@@ -97,20 +99,37 @@ public class MonsterController : MonoBehaviour {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             pauseMenu.SetActive(true);
+            healthText.enabled = false;
         }
-        else
+        else if (!win.activeSelf && !lose.activeSelf)
         {
             Time.timeScale = 1;
             axes = RotationAxes.MouseXAndY;
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
             pauseMenu.SetActive(false);
+            healthText.enabled = true;
         }
         healthText.text = "(Press ESC to pause)\nHealth: " + health + "/3";
-        if (health == 0)
-            lose = true;
+        if (health == 0) {
+            AkSoundEngine.StopAll();
+            Time.timeScale = 0;
+            axes = RotationAxes.None;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            lose.SetActive(true);
+        }            
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (monster.health == 0)
+        {
+            AkSoundEngine.StopAll();
+            Time.timeScale = 0;
+            axes = RotationAxes.None;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            win.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape) && (!win.activeSelf && !lose.activeSelf))
         {            
             pause = !pause;
         }
@@ -155,7 +174,7 @@ public class MonsterController : MonoBehaviour {
         {
             if (hit.collider.CompareTag("Monster"))
             {
-                Debug.Log("SHEET");
+                monster.health--;
             }
         }
         yield return new WaitForSeconds(shotgunCooldown);
@@ -260,6 +279,18 @@ public class MonsterController : MonoBehaviour {
 
     }
 
+    IEnumerator TakeDamage()
+    {
+        health--;
+        yield return new WaitForSeconds(1f);
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.CompareTag("Monster") && other.collider.GetType() == typeof(CapsuleCollider))
+        {
+            StartCoroutine(TakeDamage());
+        }
+    }
     void OnCollisionStay(Collision other)
     {
         if (other.collider.CompareTag("Ground"))
