@@ -67,7 +67,7 @@ public class MonsterController : MonoBehaviour {
     public Text healthText;
     public GameObject[] ignoredColliders;
     LineRenderer lineRenderer;
-    bool pause = false;
+    public bool pause = false;
     public GameObject pauseMenu;
     public GameObject win;
     public GameObject lose;
@@ -85,6 +85,7 @@ public class MonsterController : MonoBehaviour {
 
     void Start()
     {
+        AkSoundEngine.PostEvent("Heartbeat", this.gameObject);
         originalSpeed = speed;
         mainCamera = this.transform.FindChild("Main Camera").GetComponent<Camera>();
         lineRenderer = mainCamera.transform.FindChild("LineRenderer").GetComponent<LineRenderer>();
@@ -120,7 +121,7 @@ public class MonsterController : MonoBehaviour {
             lose.SetActive(true);
         }            
 
-        if (monster.dead)
+        if (monster.deadAndDone)
         {
             AkSoundEngine.StopAll();
             Time.timeScale = 0;
@@ -283,12 +284,13 @@ public class MonsterController : MonoBehaviour {
     IEnumerator TakeDamage()
     {
         health--;
+        AkSoundEngine.SetRTPCValue("PlayerHealth", health);
         AkSoundEngine.PostEvent("DamageTaken", this.gameObject);
         yield return new WaitForSeconds(1f);
     }
     void OnCollisionEnter(Collision other)
     {
-        if (other.collider.CompareTag("Monster") && other.collider.GetType() == typeof(CapsuleCollider))
+        if (other.collider.CompareTag("Monster") && other.collider.GetType() == typeof(CapsuleCollider) && !monster.dead)
         {
             StartCoroutine(TakeDamage());
         }

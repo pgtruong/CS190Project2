@@ -13,6 +13,7 @@ public class MonsterBehavior : MonoBehaviour {
     CapsuleCollider capCol;
     public int health = 2;
     public bool dead = false;
+    public bool deadAndDone = false;
 
 
     void Start()
@@ -74,6 +75,7 @@ public class MonsterBehavior : MonoBehaviour {
 
     void Killed()
     {
+        dead = true;
         StartCoroutine(WaitSeconds(7));
     }
 
@@ -111,6 +113,6 @@ public class MonsterBehavior : MonoBehaviour {
     IEnumerator WaitSeconds(int seconds)
     {
         yield return new WaitForSeconds(seconds);
-        dead = true;
+        deadAndDone = true;
     }
 }

@@ -19,6 +19,7 @@
 						<ObjectRef Name="Sprint" ID="{06175077-0EE4-47D0-BE27-895A67CCBB68}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_ArcadeCabinetMusic" ID="{BC4A6DD3-70A5-4A02-BE42-72D313E787FB}" WorkUnitID="{7698213D-B131-415A-B5DA-3CE7025A2E4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="OPScream" ID="{60563A6E-3A43-4B3F-B155-2BA81330A519}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Heartbeat" ID="{94E61BDC-E98C-4D90-824B-786CAFB68FBA}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep" ID="{CF0852C6-30BB-4E1B-B39B-F239E37DD234}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pickup_Code" ID="{081A5ADE-3BCF-4EC0-A62C-D465D8D65D35}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MonsterFootstep" ID="{2162B054-F6C0-4F3C-9988-17F3AFB887D1}" WorkUnitID="{7FE3C9FB-28B2-48F2-94DE-9A418CC0965C}" Filter="7" Origin="Manual"/>
