@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class KeyPadLogic : MonoBehaviour {
 
+    public GameManager gm;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && GameManager.instance.hasCode && !GameManager.instance.unlockedDoor)
+        if (other.CompareTag("Player") && gm.hasCode && !gm.unlockedDoor)
         {
             AkSoundEngine.PostEvent("UnlockDoor", this.gameObject);
-            GameManager.instance.unlockedDoor = true;
+            gm.unlockedDoor = true;
             this.GetComponent<ParticleSystem>().Stop();
         }
     }

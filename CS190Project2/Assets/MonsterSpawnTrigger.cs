@@ -8,9 +8,11 @@ public class MonsterSpawnTrigger : MonoBehaviour {
 
     public bool activated;
 
+    public GameManager gm;
+
     void OnTriggerEnter(Collider other)
     {
-        if (GameManager.instance.hasCode && other.CompareTag("Player") && !activated)
+        if (gm.hasCode && other.CompareTag("Player") && !activated)
         {
             monster.SetActive(true);
             activated = true;

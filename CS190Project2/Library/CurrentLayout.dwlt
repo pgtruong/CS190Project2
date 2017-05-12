@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 371}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 881, y: 321}
-  m_MaxSize: {x: 16006, y: 8021}
+  m_MinSize: {x: 883, y: 342}
+  m_MaxSize: {x: 16008, y: 8042}
   vertical: 0
-  controlID: 6028
+  controlID: 46
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1603
     height: 947
-  m_MinSize: {x: 604, y: 321}
-  m_MaxSize: {x: 12004, y: 8021}
+  m_MinSize: {x: 606, y: 342}
+  m_MaxSize: {x: 12006, y: 8042}
   vertical: 1
-  controlID: 6029
+  controlID: 47
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,10 +155,10 @@ MonoBehaviour:
     y: 0
     width: 1603
     height: 573
-  m_MinSize: {x: 604, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 606, y: 221}
+  m_MaxSize: {x: 12006, y: 4021}
   vertical: 0
-  controlID: 6030
+  controlID: 48
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 388
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 573
     width: 1603
     height: 374
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
@@ -393,26 +393,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 2439feffe439fefff43afeff984cfeff7a6efeffe071feffa072feffb073feffda7dfeff9a7efeffaa7ffeff2683feffe683fefff684feff68a6feff0cc0feff9ecafeffc282fffff487fffff4ffffff00000000d2430000f24300006a4b0100ba4b0100024c0100285b0100705b0100
+    m_ExpandedIDs: 0e69ffffce69ffffde6affff9ce6ffff84e7ffff94e8ffff46f0ffff12f1ffff26f2ffff7cf9ffffc8fbffff000000005a580000665d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Cube
+      m_OriginalName: Cube
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23150
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - 
+  - Main
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -443,14 +443,14 @@ MonoBehaviour:
     width: 635
     height: 552
   m_SceneLighting: 1
-  lastFramingTime: 4142.817474089551
+  lastFramingTime: 505.2960005722958
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 286, y: 161, z: 0}
+    m_Target: {x: -0.185, y: 1.8899999, z: -13.69}
     speed: 2
-    m_Value: {x: 286, y: 161, z: 0}
+    m_Value: {x: -0.185, y: 1.8899999, z: -13.69}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -475,11 +475,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0048943628, y: 0.99330556, z: 0.045913868, w: -0.10588691}
     speed: 2
-    m_Value: {x: 0.0048943628, y: 0.99330556, z: 0.045913868, w: -0.10588691}
+    m_Value: {x: 0.0048943628, y: 0.99330556, z: 0.045913868, w: -0.1058869}
   m_Size:
-    m_Target: 1083.0688
+    m_Target: 3.0868676
     speed: 2
-    m_Value: 1083.0688
+    m_Value: 3.0868676
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -589,9 +589,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 653
-    width: 1401
-    height: 345
+    y: 665
+    width: 1601
+    height: 353
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -603,19 +603,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/3DModels/Notepad
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/3DModels/Notepad
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\VGDC_3\Documents\GitHub\CS190Project2\CS190Project2
+  m_LastProjectPath: C:\Users\Efren\Documents\CS190Project2\CS190Project2
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 152}
-    m_SelectedIDs: 502b0000
-    m_LastClickedID: 11088
-    m_ExpandedIDs: 00000000523e00003e3f00007c3f0000903f0000ec3f00004c40000062400000bc410000cc410000d441000002420000184200003442000044420000724200002446000026460000284600002a460000
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: b6260000
+    m_LastClickedID: 9910
+    m_ExpandedIDs: 00000000b6260000b42800003c29000094290000802a0000702b0000882b0000f62b0000a62d0000c02d0000ce2d00000c2e0000322e0000862e00009c2e0000002f00000e30000010300000123000001430000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -643,7 +643,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000523e00003e3f00007c3f0000903f0000ec3f00004c40000062400000bc410000cc410000d441000002420000184200003442000044420000724200002446000026460000284600002a460000
+    m_ExpandedIDs: 00000000b6260000b42800003c29000094290000802a0000882b0000f62b0000a62d0000c02d0000ce2d00000c2e0000322e0000862e00009c2e0000002f00000e300000103000001230000014300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -668,8 +668,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0e300000
-    m_LastClickedInstanceID: 12302
+    m_SelectedInstanceIDs: b45d0000
+    m_LastClickedInstanceID: 23988
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: da260000
     m_RenameOverlay:
@@ -695,7 +695,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 82}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 244
 --- !u!114 &19

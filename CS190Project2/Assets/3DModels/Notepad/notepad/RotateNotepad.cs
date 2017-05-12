@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class RotateNotepad : MonoBehaviour {
 
     public float speed = 10f;
+    public GameManager gm;
     public Text pickup;
 
     private void Update()
@@ -22,8 +23,8 @@ public class RotateNotepad : MonoBehaviour {
             pickup.color = temp;
             AkSoundEngine.PostEvent("Pickup_Code", gameObject);
             Destroy(gameObject);
-            GameManager.instance.hasCode = true;
-            GameManager.instance.animateKeypad();
+            gm.hasCode = true;
+            gm.animateKeypad();
         }
     }
 }
